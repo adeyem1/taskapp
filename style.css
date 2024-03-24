@@ -1,0 +1,84 @@
+/* .todofont{
+    font: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.26px;
+    color: #333333;
+    width: 118px;
+    height: 41px;
+    margin-top: 32px;
+    margin-left: 659px;
+  }
+
+
+#tabhead{
+/* width: 19px;
+height: 17px; */
+/* margin-top: 130px;
+margin-left: 499px; */
+/* font: Montserrat;
+ font-size: 14px; */
+/* font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left; */ 
+
+ul li {
+  list-style: none;
+  font: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+ul li::before {
+  content: '';
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  /* background-image: url(./Images/unchecked.png); */
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+}
+
+.checked {
+  color: #555;
+  text-decoration: line-through;
+}
+
+/* .checked::before {
+  background-image: url(./Images/checked.png);
+} */
+
+
+ 
+  span {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+
+  }
+
+  span:hover {
+    background: #edeef0;
+}
+
+.delete {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
